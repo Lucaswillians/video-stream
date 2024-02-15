@@ -1,57 +1,57 @@
 [
   {
     "id": 1,
-    "nome": "Alanzoka",
-    "imagem": "https://static-cdn.jtvnw.net/jtv_user_pictures/64d44235-1dee-4bca-95da-bee1ee96eea3-profile_image-300x300.png",
-    "link_video": "https://www.youtube.com/alanzoka"
+    "nome": "Spider Man No Way Home",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNgBJZeupzqLSrETmYW6iwiyRk7KJxlfZPWw&usqp=CAU",
+    "link_video": "https://www.youtube.com/watch?v=bYMcpBz6Rp4"
   },
 
   {
     "id": 2,
-    "nome": "Zangado",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBxk0dsVExVQT6kIFkXLRPjwW1gFM0mNHRUg&usqp=CAU",
-    "link_video": "https://www.youtube.com/zangado"
+    "nome": "Deadpool 1",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAJ9kHwl-ick7VKE270zA-uONOk9npaJ78lw&usqp=CAU",
+    "link_video": "https://www.youtube.com/watch?v=Sy8nPI85Ih4"
   },
 
   {
     "id": 3,
-    "nome": "Games Eduu",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwx1doofS_Zm8wPkbq0WUKKF1rObImiFXQzA&usqp=CAU",
-    "link_video": "https://www.youtube.com/@GamesEduUu"
+    "nome": "Deadpool 2",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqB4HX4N03taGy2yhB4T3VhqOPpSn_ASxu0Q&usqp=CAU",
+    "link_video": "https://www.youtube.com/watch?v=vAKzGIhW9-c"
   },
 
   {
     "id": 4,
-    "nome": "Cellbit",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3fGzCZ0SH6CIUZFQzdGDxxDCADYdEylpKQw&usqp=CAU",
-    "link_video": "https://www.youtube.com/@CellbitLives"
+    "nome": "The Batman",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSFlIAb8zW8GtBEnXe9KTAPaCFqGENRyzOg&usqp=CAU",
+    "link_video": "https://www.youtube.com/watch?v=GGZdoD7gYnE"
   },
 
   {
     "id": 5,
-    "nome": "Rato Borrachudo",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjuSoOVoxawkQiSKK4ROmqJCNw_vOuBxiG0A&usqp=CAU",
-    "link_video": "https://www.youtube.com/ratoborrachudo"
+    "nome": "Batman The Dark Knight Rises",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpTC7L_PEypwQoU0MjxiLSMANwrxZkyrE-9Q&usqp=CAU",
+    "link_video": "https://www.youtube.com/watch?v=LstIgtkEe50"
   },
 
   {
     "id": 6,
-    "nome": "Calango",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVYInN1jizMNE_lTiU_0VQNZvTzL3WOMrt7g&usqp=CAU",
-    "link_video": "https://www.youtube.com/@CalangoLive"
+    "nome": "Creed",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTWZvhnJb1RUdiEsUnWXJ2agtEB7LOvmkMnA&usqp=CAU",
+    "link_video": "https://www.youtube.com/watch?v=-NH1A6CLIrY&t=143s"
   },
 
   {
     "id": 7,
-    "nome": "Gaules",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0OcZU-Ra9CIJWYXPtwOBVuNarKEPQkApeZA&usqp=CAU",
-    "link_video": "https://www.youtube.com/@Gaules"
+    "nome": "The Amazing Spider Man 2",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEZ2eKCzFqiCyb_PncWK6dj5-o7oOjTpErcA&usqp=CAU",
+    "link_video": "https://www.youtube.com/watch?v=J0sDT5PLB0o"
   },
 
   {
     "id": 8,
-    "nome": "Casimiro",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwMvuid3YAmnWWy8aF0RsKegVfHJ5CFjNM3A&usqp=CAU",
-    "link_video": "https://www.youtube.com/@Gaules"
+    "nome": "Creed 2",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSPwl34JCfV0letZlv_0nmzilINQs1O4AOCw&usqp=CAU",
+    "link_video": "https://www.youtube.com/watch?v=SR9F-fKEP10"
   }
 ]
