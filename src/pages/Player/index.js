@@ -1,35 +1,33 @@
-import Banner from 'components/Banner';
-import Title from 'components/Title';
-import { useParams } from 'react-router-dom';
-import styles from './Player.module.css'
-import NotFound from 'pages/NotFound';
-import { useEffect, useState } from 'react';
+import Banner from "components/Banner";
+import Title from "components/Title";
+import { useParams } from "react-router-dom";
+import styles from "./Player.module.css";
+import NotFound from "pages/NotFound";
+import { useEffect, useState } from "react";
 
-export default function Player ()
-{
+export default function Player() {
   const [video, setVideo] = useState();
   const params = useParams();
 
-  useEffect(() => { 
+  useEffect(() => {
     fetch(
       `https://my-json-server.typicode.com/Lucaswillians/video-stream-api/videos?id=${params.id}`
-    ).then(response => response.json()).then(data => {
-      setVideo(...data)
-    })
-  }, [])
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        setVideo(...data);
+      });
+  }, [params.id]);
 
-  console.log(video)
-  
-  if (!video) return <NotFound/>
+  console.log(video);
+
+  if (!video) return <NotFound />;
 
   return (
     <>
       <Banner image="player" />
-      <Title>
-        {" "}
-        <h1> Se liga nessa cena! </h1>{" "}
-      </Title>
-      <section className={styles.container} style={{ display: 'flex' }}>
+      <Title> <h1> Se liga nessa cena! </h1> </Title>
+      <section className={styles.container} style={{ display: "flex" }}>
         <iframe
           width="100%"
           height="100%"
@@ -42,4 +40,4 @@ export default function Player ()
       </section>
     </>
   );
-} 
+}

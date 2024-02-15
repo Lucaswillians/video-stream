@@ -19,7 +19,7 @@ export default function Home ()
   return (
     <div>
       <Banner image="home"/>
-      <Title> <h1> Assista seus streamers e youtubers favoritos! </h1> </Title>
+      <Title> <h1> Assista algumas cenas dos filmes mais famosos! </h1> </Title>
       <section className={styles.container}>
           {videos.map ((video) => {
             return <Card {...video} key={video.id}/>
