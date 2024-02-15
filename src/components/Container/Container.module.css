@@ -1,4 +1,7 @@
 .container section {
   margin: 2em 20em ;
   text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
 }
