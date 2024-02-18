@@ -1,4 +1,29 @@
 .container {
-  display: flex;
-  justify-content: space-around;
+  margin: 0;
+  width: auto;
+  justify-content: center;
+}
+
+.bannerContainer {
+  width: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container section {
+    gap: 10px;
+    margin: 0em;
+  }
+
+  .bannerContainer {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+  }
 }

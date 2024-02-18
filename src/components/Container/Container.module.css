@@ -1,7 +1,25 @@
-.container section {
-  margin: 2em 20em;
+.mainContainer section {
   text-align: center;
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer section {
+    grid-template-columns: auto;
+    gap: 10px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .mainContainer div {
+    margin: 0; 
+  }
+
+  .mainContainer {
+    width: 100%;
+    margin: 0;
+  }
 }

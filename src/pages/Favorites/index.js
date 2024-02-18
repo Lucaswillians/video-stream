@@ -8,12 +8,17 @@ export default function Favorites() {
   const { favorite } = useFavoriteContext();
   return (
     <div>
-      <Banner image="favoritos" />
-      <Title> <h1> Meus favoritos </h1> </Title>
+      <div className={styles.bannerContainer}>
+        <Banner image="home" />
+      </div>
+      <Title>
+        {" "}
+        <h1> Meus favoritos </h1>{" "}
+      </Title>
       <section className={styles.container}>
-          {favorite.map((fav) => {
-            return <Card {...fav} key={fav.id}/>
-          })}
+        {favorite.map((fav) => {
+          return <Card {...fav} key={fav.id} />;
+        })}
       </section>
     </div>
   );

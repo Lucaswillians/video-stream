@@ -1,8 +1,5 @@
-.container {
-  display: flex;
-}
+.container {}
 
-.container {
-  display: flex;
-  justify-content: space-around;
+.bannerContainer {
+  width: auto;
 }
