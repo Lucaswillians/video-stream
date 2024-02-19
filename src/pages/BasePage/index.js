@@ -7,14 +7,14 @@ import { Outlet } from "react-router-dom";
 export default function BasePage ()
 {
   return (
-    <main>
-       <Header/>
+    <>
             <FavoritesProvider>
                  <Container>
+       <Header/>
                        <Outlet/>
+        <Footer/>
                  </Container>
            </FavoritesProvider>
-        <Footer/>
-    </main>
+    </>
   );
 }

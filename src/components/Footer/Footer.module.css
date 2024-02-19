@@ -2,6 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: auto;
+  margin-top: 2rem;
   padding: 0.1em 20em;
   background-color: rgb(235, 235, 235);
 }
