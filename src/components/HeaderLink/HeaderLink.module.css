@@ -2,6 +2,11 @@
   color: white;
   font-size: 18px;
   font-weight: 400;
-  padding: 1em;
+  padding: 2.4em;
   text-decoration: none;
+  transition: .3s;
+}
+
+.link:hover {
+  opacity: .8;
 }

@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import styles from "./Player.module.css";
 import NotFound from "pages/NotFound";
 import { useEffect, useState } from "react";
+import Wrapper from "components/Wrapper";
 
 export default function Player() {
   const [video, setVideo] = useState();
@@ -26,18 +27,20 @@ export default function Player() {
   return (
     <>
       <Banner image="player" />
-      <Title> <h1> Se liga nessa cena! </h1> </Title>
-      <section className={styles.container} style={{ display: "flex" }}>
-        <iframe
-          width="100%"
-          height="100%"
-          src={video.link_video}
-          title={video.nome}
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </section>
+      <Wrapper>
+        <Title> <h1> Se liga nessa cena! </h1> </Title>
+        <section className={styles.container} style={{ display: "flex" }}>
+          <iframe
+            width="100%"
+            height="100%"
+            src={video.link_video}
+            title={video.nome}
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
+      </Wrapper>
     </>
   );
 }

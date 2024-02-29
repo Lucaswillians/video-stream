@@ -3,6 +3,7 @@ import Card from "components/Card";
 import Title from "components/Title";
 import { useEffect, useState } from "react";
 import styles from './Home.module.css';
+import Wrapper from "components/Wrapper";
 
 export default function Home ()
 {
@@ -19,12 +20,14 @@ export default function Home ()
   return (
     <div>
       <Banner image="home"/>
-      <Title> <h1> Assista algumas cenas dos filmes mais famosos! </h1> </Title>
-      <section className={styles.container}>
-          {videos.map ((video) => {
-            return <Card {...video} key={video.id}/>
-          })}
-      </section>
+      <Wrapper>
+        <Title> <h1> Assista algumas cenas dos filmes mais famosos! </h1> </Title>
+        <section className={styles.container}>
+            {videos.map ((video) => {
+              return <Card {...video} key={video.id}/>
+            })}
+        </section>
+      </Wrapper>
     </div>
   );
 }
