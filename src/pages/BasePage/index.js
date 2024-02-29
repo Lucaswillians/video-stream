@@ -9,12 +9,14 @@ export default function BasePage ()
 {
   return (
     <main className={styles.container}>
-       <Header/>
-            <FavoritesProvider>
-                 <Container>
-                       <Outlet/>
-                 </Container>
-           </FavoritesProvider>
+        <div>
+          <Header/>
+          <FavoritesProvider>
+                <Container>
+                      <Outlet/>
+                </Container>
+          </FavoritesProvider>
+        </div>
         <Footer/>
     </main>
   );
